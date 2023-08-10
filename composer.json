@@ -1,32 +1,32 @@
 {
-    "name": "anvyst/php-composer-dev",
-    "description": "Development tools for Laravel based projects",
-    "type": "metapackage",
-	"keywords": ["laravel", "template", "dry"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Andrey Vystavkin",
-			"homepage": "https://github.com/anvyst",
-			"role": "Developer"
-        }
-    ],
-    "config": {
-        "sort-packages": true,
-        "optimize-autoloader": true
-    },
-    "support": {
-        "issues": "https://github.com/anvyst/php-composer-dev/issues",
-        "source": "https://github.com/anvyst/php-composer-dev"
-    },
-    "require": {
-        "brianium/paratest": "^6.10",
-        "enlightn/enlightn": "^2.3",
-        "laravel/pint": "^1.4",
-        "phpunit/phpunit": "^9.5",
-        "nunomaduro/larastan": "^2.6",
-        "nunomaduro/collision": "^6.0",
-        "fakerphp/faker": "^1.9"
-    },
+  "name": "anvyst/php-composer-dev",
+  "description": "Development tools for Laravel based projects",
+  "type": "metapackage",
+  "keywords": ["laravel", "template", "dry"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Vystavkin",
+      "homepage": "https://github.com/anvyst",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "support": {
+    "issues": "https://github.com/anvyst/php-composer-dev/issues",
+    "source": "https://github.com/anvyst/php-composer-dev"
+  },
+  "require": {
+    "brianium/paratest": "^6.10",
+    "enlightn/enlightn": "^2.3",
+    "laravel/pint": "^1.4",
+    "phpunit/phpunit": "^9.5",
+    "nunomaduro/larastan": "^2.6",
+    "nunomaduro/collision": "^6.0",
+    "fakerphp/faker": "^1.9"
+  },
 	"prefer-stable": true
 }
