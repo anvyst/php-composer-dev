@@ -19,7 +19,7 @@
         "issues": "https://github.com/anvyst/php-composer-dev/issues",
         "source": "https://github.com/anvyst/php-composer-dev"
     },
-    "require-dev": {
+    "require": {
         "brianium/paratest": "^6.10",
         "enlightn/enlightn": "^2.3",
         "laravel/pint": "^1.4",
